@@ -1,0 +1,198 @@
+*
+{
+ margin: 0;
+ padding: 0;
+}
+
+.sidebar{
+	background-color: lightgrey; 
+	width: 17vw;
+	font-family: 'Balsamiq Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Playpen Sans', cursive;
+    height: 100vh;
+    font-family: bold;
+}
+
+.sidebar nav{
+	padding: 45px;
+}
+
+.sidebar nav li ul{
+	padding-top: 17px;
+}
+
+.sidebar nav li{
+	list-style: none;
+	font-size: 28px;
+	padding: 33px 0;
+}
+
+.sidebar nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.Main{
+	/*background-color: yellow; */
+	width: 80vw;
+	font-family: 'Balsamiq Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.Container{
+	display: flex;
+}
+
+.infoContainer{
+	/*background-color: grey; */
+    height: 75vh;
+    width: 68vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    width: 347px;
+    height: 75vh;
+    align-items: center;
+
+   
+}
+
+
+.devInfo {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Hello{
+    font-size: 45px;
+    font-family: bold;
+}
+
+.About{
+	font-size: 27px;
+}
+
+.Name{
+	font-size: 48px;
+}
+
+.buttons button{
+	padding: 5px 6px;
+    border-radius: 22px;
+    color: black;
+    background-color: lightgrey;
+    font-weight: 21px;
+    font-size: 21px;
+    margin: 18px 3px
+	
+}
+
+.buttons button:hover{
+	background-color: white;
+	color: black;
+
+}
+
+
+.contactform{
+	padding-top: 144px;
+	padding: 0 34px;
+
+
+
+
+}
+
+.contactform h1{
+	padding: 12px 0px;
+	text-align: center;
+}
+
+
+.contactform form div{
+	color: black;
+	padding: 9px 0px;
+}
+
+.blogcontainer{
+	padding: 90px 60px;
+	width: 30vw;
+	margin-top: 20px;
+}
+
+.blogcontainer h1{
+	font-size: 50px;
+	font-family: cursive;
+}
+
+.blogitem{
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.blogitem p{
+	font-size: 25px;
+	margin-top: 14px;
+	margin-left: 35px;
+}
+
+
+.blogitem h2{
+	font-size: 35px;
+}
+
+
+
+.containerservises{
+	padding: 90px 60px;
+	width: 30vw;
+	margin-top: 20px;
+}
+
+
+.containerservises h1{
+	font-size: 50px;
+	font-family: cursive;
+}
+
+.infoservises{
+	margin-top: 20px;
+}
+
+.infoservises p{
+	font-size: 20px;
+	margin-top: 14px;
+
+}
+
+.Introduction{
+	padding: 90px 60px;
+	width: 30vw;
+	margin-top: 20px;
+}
+
+.Introduction h1{
+	font-size: 50px;
+	font-family: cursive;
+
+}
+
+.MySelf{
+	margin-top: 20px;
+
+}
+
+.MySelf p{
+	font-size: 20px;
+	margin-top: 14px;
+}
